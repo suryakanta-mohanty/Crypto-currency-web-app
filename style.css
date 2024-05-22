@@ -198,3 +198,43 @@
     width: 32px;
     opacity: 80%;
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+        padding: 20px 20px;
+    }
+
+    .navbar nav .logo-menu ul li{
+        display: none;
+    }
+
+    .content{
+        margin: 70px 1px 0;
+        width: 310px;
+    }
+
+    .content p{
+        max-width: 271px;
+    }
+
+    .quick-links{
+        width: 100%;
+        border-top-left-radius: 30px;
+    }
+
+    .link-box{
+        margin: 0 14px;
+    }
+
+    .app-img img{
+        width: 200px;
+        right: 24%;
+        top: 61%;
+        filter: drop-shadow(4px 0 6px rgb(255, 255, 255, 0.25));
+    }
+
+    .social-link{
+        right: 22px;
+        bottom: 118px;
+    }
+}
